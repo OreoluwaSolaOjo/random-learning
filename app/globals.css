@@ -1,0 +1,86 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url('/fonts/SFPRODISPLAYBOLD.woff') format('woff');
+  font-weight: 700; /* Bold */
+  font-style: normal;
+  font-feature-settings: 'clig' off, 'liga' off;
+}
+
+@font-face {
+  font-family: 'SF Pro Text';
+  src: url('/fonts/FontsFree-Net-SFProText-Medium.woff') format('woff');
+  font-weight: 500; /* Medium */
+  font-style: normal;
+  font-feature-settings: 'clig' off, 'liga' off;
+}
+
+@font-face {
+  font-family: 'SF Pro Text';
+  src: url('/fonts/FontsFree-Net-SFProText-Bold.woff') format('woff');
+  font-weight: 700; /* Bold */
+  font-style: normal;
+  font-feature-settings: 'clig' off, 'liga' off;
+}
+
+@font-face {
+  font-family: 'SF Pro Text';
+  src: url('/fonts/FontsFree-Net-SFProText-Regular.woff') format('woff');
+  font-weight: 400; /* Regular */
+  font-style: normal;
+  font-feature-settings: 'clig' off, 'liga' off;
+}
+
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url('/fonts/SFPRODISPLAYREGULAR.woff') format('woff');
+  font-weight: 400; /* Regular */
+  font-style: normal;
+  font-feature-settings: 'clig' off, 'liga' off;
+}
+
+
+:root {
+  --primary-dark-100: #1D3551;
+  --Blue-Highlight: #2CA1DB;
+  --Primary: #DEEBF0;
+  --Off-White: #F6F8FA;
+  --Off-White-lighter: #FBFCFD;
+  --Accent-1---Dark: #5A4013;
+  --Accent-1---Light: #F0EDE8;
+  --success-success: #00A955;
+  --success-success-light: #E1F0F0;
+  --error-error: #EF5364;
+  --error-error-light: #E5BBC0;
+  --black-100: #242A30;
+  --black-90: #3A4045;
+  --black-70: #666A6F;
+  --black-50: #919497;
+  --black-30: #BEC0C1;
+  --black-10: #EAEAEB;
+
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
