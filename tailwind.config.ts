@@ -19,6 +19,8 @@ const config: Config = {
       },
       colors: {
         'primary-dark-100': 'var(--primary-dark-100)',
+      
+       
         'blue-highlight': 'var(--Blue-Highlight)',
         'primary': 'var(--Primary)',
         'off-white': 'var(--Off-White)',
