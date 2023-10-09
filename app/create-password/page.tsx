@@ -17,27 +17,27 @@ const login = () => {
             </div>
             <div className={styles.mainContent}>
                 <div className={styles.loginBox}>
-                    <h1 className={styles.title}>Login</h1>
+                    <h1 className={styles.title}>Welcome, Ella</h1>
+                    <h1 className={styles.title2}>Create a new password</h1>
                     <div className={styles.divider}></div>
                     <div className={styles.inputGroup}>
-                        <label htmlFor="" className={styles.label}>Enter your email</label>
+                        <label htmlFor="" className={styles.label}>Enter new password</label>
                         <input type="text" className={styles.textInput} placeholder='Enter your email' />
                     </div>
+                    <div className={styles.inputGroup}>
+                        <label htmlFor="" className={styles.label}>Confirm new password</label>
+                        <input type="text" className={styles.textInput} placeholder='Enter your email' />
+                    </div>
+                    <div className={styles.divider2}></div>
                     <div className={styles.btnDiv}>
                         <CustomButton
-                            text='Next'
-                            width="100px"
+                            text='Create Password'
+                            width="154px"
                             color="primary"
                             onClick={handleClick}
                         />
                     </div>
-                    <div className={styles.hrdiv}>
-                        <p className={styles.ortag}>or</p>
-                    </div>
-                    <div className={styles.googlebutton}>
-    <Image src="/images/google.png" alt="Main Logo" width={24} height={24} /> 
-    <p className={styles.googletext}>Sign in with Google</p>
-</div>
+               
                 </div>
 
             </div>
