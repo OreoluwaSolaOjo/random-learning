@@ -1,0 +1,133 @@
+.container {
+    background-color: var(--off-white);
+    height: 100vh;
+}
+
+.header {
+    background-color: var(--black-10);
+    height: 60px;
+    padding-left: 48px;
+    display: flex;
+    align-items: center;
+}
+
+.mainContent {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.loginBox {
+    width: 444px;
+    background-color: white;
+ 
+    margin-top: 24px;
+    box-shadow: 1px 2px 19px 0px rgba(222, 235, 240, 0.50);
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 32px;
+}
+
+.title {
+    margin-top: 24px;
+   
+    font-family: 'SF Pro Text', sans-serif;
+    color: var(--title);
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.divider {
+    border-top: 1px solid var(--primary-dark-10, rgba(29, 53, 81, 0.10));
+}
+.divider2 {
+    margin-top: 70px;
+    border-top: 1px solid var(--primary-dark-10, rgba(29, 53, 81, 0.10));
+}
+.title2{
+    color: var(--black-90, #3A4045);
+font-feature-settings: 'clig' off, 'liga' off;
+margin-bottom: 16px;
+/* Text Normal/Regular */
+font-family: SF Pro Text;
+
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 21px */
+}
+.inputGroup {
+    display: flex;
+    flex-direction: column;
+
+    padding-top: 32px;
+   
+}
+.btnDiv{
+    width: 100%;
+  margin-top: 24px;
+ 
+    display: flex;
+    justify-content: flex-end;
+}
+.label {
+    font-family: 'SF Pro Text', sans-serif;
+    color: var(--primary-dark-100-90);
+    
+}
+
+.textInput {
+    border: 2px solid;
+    margin-top: 8px;
+    padding-top: 13.5px;
+    padding-right: 8px;
+    padding-bottom: 13.5px;
+    padding-left: 16px;
+    width: 100%;
+    border:1px solid var(--primary-dark-50, rgba(29, 53, 81, 0.50));
+}
+
+.hrdiv {
+    margin-top: 72px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 100%; /* or whatever width you need */
+  }
+  
+  .hrdiv:before,
+  .hrdiv:after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: var(--primary-dark-10, rgba(29, 53, 81, 0.10));; /* or any color you want for the line */
+    margin: 0 10px;  /* space between the line and the text */
+ 
+  }
+  .ortag{
+   color: #919497;
+
+  }
+.googlebutton{
+    display: flex;
+width: 100%;
+padding: 12px 16px 12px 12px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 2px;
+border: 1px solid var(--primary-dark-100, #1D3551);
+background: var(--Off-White---Lighter, #FBFCFD);
+margin-top:12px;
+}  
+.googletext{
+    color: var(--primary-dark-100, #1D3551);
+text-align: center;
+font-feature-settings: 'clig' off, 'liga' off;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 150%; /* 21px */
+margin: 0px;
+}
